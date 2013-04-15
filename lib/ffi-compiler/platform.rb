@@ -25,5 +25,13 @@ module FFI::Compiler
     def mac?
       FFI::Platform.mac?
     end
+
+    def windows?
+      FFI::Platform.windows?
+    end
+
+    def unix?
+      FFI::Platform.unix?
+    end
   end
 end
